@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://baiqiaozhang.github.io
+url:                   https://sleepybqq.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -20,19 +20,18 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 SleepyBQQ's Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  A personal blog built with Hydejack theme.
 
 # A shorter description for the sidebar.
-tagline:               A boutique Jekyll theme
+tagline:               Personal Blog
 
 # A list of keywords for your blog
-keywords:              [jekyll, theme, hyde, sidebar, resume, markdown, code, math, portfolio, personal]
+keywords:              [blog, personal, jekyll, hydejack]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,23 +41,19 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Florian Klampfer
-  email:               mail@qwtel.com
+  name:                SleepyBQQ
+  email:               your-email@example.com
   # Used by `jekyll-seo-tag`:
-  twitter:             qwtel
+  # twitter:             your_twitter_username
 
 # Add links to the sidebar.
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Showcase
-    url:               /showcase/
-  - title:             Résumé*
-    url:               /resume/
-  - title:             Documentation
-    url:               /docs/
-  - title:             Download
-    url:               /download/
+  - title:             About
+    url:               /about/
+  # - title:             Résumé*
+  #   url:               /resume/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -72,7 +67,7 @@ legal:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  \* Not included in free version
+  © 2024 SleepyBQQ. All rights reserved.
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
@@ -345,7 +340,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: kRoh_csFULhK6lxBJwZOxiWYQpvttOkFj0a3lWwQADc
+# google_site_verification: your_verification_code
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
@@ -354,8 +349,8 @@ google_site_verification: kRoh_csFULhK6lxBJwZOxiWYQpvttOkFj0a3lWwQADc
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-twitter:
-  username:            qwtel
+# twitter:
+#   username:            your_username
 
 # Used for facebook open graph
 # facebook:
