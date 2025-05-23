@@ -80,13 +80,11 @@ paginate_path:         /blog/:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# This will use the gem `jekyll-theme-hydejack`, as defined in the sibling `Gemfile`.
-theme: jekyll-theme-hydejack
+# 注释掉本地主题
+# theme: jekyll-theme-hydejack
 
-# You can uncomment `theme` above and replace it with `remote_theme` here iff you are using the 
-# `jekyll-remote-theme` plugin (which is the case when using the legacy GitHub Pages pipeline).
-# This will fetch the `v9` branch of the public Hydejack repository on GitHub.
-# remote_theme: hydecorp/hydejack@v9
+# 使用远程主题（免费版）
+remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
@@ -299,9 +297,6 @@ collections:
 # ----------------------------------------------------------------------------------------
 
 exclude:
-  - ./#jekyll-theme-hydejack/node_modules
-  - ./#jekyll-theme-hydejack/assets
-  - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
   - _zip
   - .sass-cache
@@ -334,6 +329,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-remote-theme
 
 
 # SEO Tag
