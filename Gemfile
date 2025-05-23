@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.3"
 
-gem "jekyll-theme-hydejack", path: "./"
+gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
 
 # If you are part of the ["Customers" team](https://github.com/orgs/hydecorp/teams/pro-customers), 
 # you can fetch the theme from a private repository. 
