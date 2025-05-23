@@ -10,12 +10,14 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.3"
 
-gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
+# 使用远程主题代替本地路径
+# 注释掉本地主题，使用 remote_theme 替代
+# gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
 
-# If you are part of the ["Customers" team](https://github.com/orgs/hydecorp/teams/pro-customers), 
-# you can fetch the theme from a private repository. 
-# See [Deploy in the Hydejack Docs](https://hydejack.com/docs/deploy) for details.
+# 添加 remote_theme 插件
+gem "jekyll-remote-theme"
 
+# 或者如果你有 Pro 版本，取消下面这行的注释并注释上面一行
 # gem "jekyll-theme-hydejack", git: "https://github.com/hydecorp/hydejack-pro", tag: "pro/v9.2.0"
 
 # IMPORTANT: The followign gem is used to compile math formulas to 
@@ -53,6 +55,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
+  gem "jekyll-remote-theme"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
@@ -61,4 +64,3 @@ end
 
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
-
